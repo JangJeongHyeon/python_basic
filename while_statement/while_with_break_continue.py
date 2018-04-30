@@ -1,3 +1,4 @@
+#
 #while 1:
 #    print("find Stocks")
 
