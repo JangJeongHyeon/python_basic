@@ -29,11 +29,24 @@ def print_menu():
 
 
 def run():
-    while True:
+    contact_list = []
+    while 1:
         menu = print_menu()
-        if menu == 4:
+        if(menu == 1):
+            contact = new_contact()
+            contact_list.append(contact)
+        elif(menu == 2):
+            for contact in contact_list:
+                print("="*20)
+                contact.print_info()
+                print("="*20)
+        elif(menu == 3):
+            name = input("이름: ")
+            for index, item in enumerate(contact_list):
+                if(item.name == name):
+                    del contact_list[index]
+        elif(menu == 4):
             break
-
     
 if __name__ == '__main__':
     run()
