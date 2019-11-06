@@ -13,7 +13,7 @@ class BusinessCard:
 
 
 val = BusinessCard()
-val.set_info('JohnMark','practice1356@gmail.com','Anseong')
+val.set_info('JohnMark','practice1356@gmail.com','Seoul Mapo')
 print(val)
 print()
 val.show_info()

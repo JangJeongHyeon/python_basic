@@ -8,8 +8,8 @@ class Account:
 
 
 
-kim  = Account('kim')
-lee = Account('lee')
+kim  = Account('Chang')
+lee = Account('Kim')
 
 print(kim.name)
 print(lee.name)

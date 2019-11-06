@@ -7,13 +7,13 @@ current_price = {}
 print(type(current_price))
 
 # Add new item with key
-current_price['daeshin'] = 30000
+current_price['naver'] = 1
 
 # Check result
 print(current_price)
 
 # Add another item with key
-current_price['DaumKAKAO'] = 80000
+current_price['DaumKAKAO'] = 2
 
 # Check result
 print(current_price)

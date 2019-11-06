@@ -15,7 +15,7 @@ interset = ["삼성전자", "LG전자", "네이버", "카카오"]
 print(interset)
 
 # list is easy handle sequence data
-daishin = [9130, 9150, 9150, 9300, 9400]
+woowa = [9130, 9150, 9150, 9300, 9400]
 
 # difference type biding as list
 mystock = ['Naver', 5000]

@@ -1,4 +1,4 @@
-current_price = {'Daum KAKAO': 80000, 'naver':800000, 'daeshin':30000}
+current_price = {'Daum KAKAO': 2, 'naver':1, 'wooaBrothers':3}
 
 print(current_price)
 

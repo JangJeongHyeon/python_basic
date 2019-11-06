@@ -17,5 +17,5 @@ class BusinessCard:
 
 card = BusinessCard()
 card.show_info()
-card.set_info('JohnMark','practice1356@gmail.com','Anseong')
+card.set_info('JohnMark','practice1356@gmail.com','Seoul Mapo')
 card.show_info()
